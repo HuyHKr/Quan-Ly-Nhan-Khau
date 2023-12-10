@@ -6,11 +6,11 @@ Jhipster là công cụ giúp generate Spring Boot +Angular/React Web applicatio
 
     Thêm biến môi trường JAVA_HOME
     ![image](https://github.com/HuyHKr/Quan-Ly-Nhan-Khau/assets/148759236/be337209-7ea2-4537-b584-0fc731972edd)
-3. Cài đặt Nodejs version 20.10.0
+2. Cài đặt Nodejs version 20.10.0
    [Download Nodejs version 20.10.0](https://nodejs.org/en/blog/release/v20.10.0)
-4. Cài đặt Git
+3. Cài đặt Git
    [Download Git](https://git-scm.com/downloads)
-5. Cài đặt generator-jhipster
+4. Cài đặt generator-jhipster
    `npm i -g generator-jhipster`
 
 # Demo Tạo 1 Project bằng Jhipster sử dụng PostgreSql
@@ -23,7 +23,7 @@ Jhipster là công cụ giúp generate Spring Boot +Angular/React Web applicatio
 ![image](https://github.com/HuyHKr/Quan-Ly-Nhan-Khau/assets/148759236/61d39558-5558-49a9-ab26-0af28c797579)
 
    
-3. Tạo các entity
+2. Tạo các entity
 
     Định nghĩa tập thực thể trong [JDL Studio](https://start.jhipster.tech/jdl-studio/)
     ![image](https://github.com/HuyHKr/Quan-Ly-Nhan-Khau/assets/148759236/e367a53f-6510-42d4-913a-403cec5a5c1d)
@@ -35,17 +35,9 @@ Jhipster là công cụ giúp generate Spring Boot +Angular/React Web applicatio
     Có conflict, nhấn **a** và **Enter** để ghi đè tất cả file conflict
     ![image](https://github.com/HuyHKr/Quan-Ly-Nhan-Khau/assets/148759236/05126218-1729-4ed4-ad49-3a6a7645ee65)
 
-5. Tạo Database và connect source code với Database
+3. Tạo Database và connect source code với Database
 
-   [Tải PostgreSql](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
-
-   Tạo database có tên quanlynhankhau
-
-   Config source code tại  `src\main\resources\config\ application-dev.yml `
-        ![image](https://github.com/HuyHKr/Quan-Ly-Nhan-Khau/assets/148759236/a781ccbe-5c5c-4d18-a48c-4e63f2312208)
-
-
-6. Khởi chạy Project
+   [Tải PostgreSql](https://www.enterprisedb.com/downloads/postgres-postgresq4. Khởi chạy Project
    
    Chạy lệnh `mvnw` để khởi động 
    ![image](https://github.com/HuyHKr/Quan-Ly-Nhan-Khau/assets/148759236/16d4d2c5-7643-4893-8995-21ecef09f523)
