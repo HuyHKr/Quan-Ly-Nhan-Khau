@@ -25,26 +25,27 @@ Jhipster là công cụ giúp generate Spring Boot +Angular/React Web applicatio
    
 3. Tạo các entity
 
-   Định nghĩa tập thực thể trong [JDL Studio](https://start.jhipster.tech/jdl-studio/)
-![image](https://github.com/HuyHKr/Quan-Ly-Nhan-Khau/assets/148759236/e367a53f-6510-42d4-913a-403cec5a5c1d)
-Tải về và copy vào source code
+    Định nghĩa tập thực thể trong [JDL Studio](https://start.jhipster.tech/jdl-studio/)
+    ![image](https://github.com/HuyHKr/Quan-Ly-Nhan-Khau/assets/148759236/e367a53f-6510-42d4-913a-403cec5a5c1d)
+    Tải về và copy vào source code
 
-Chạy lệnh `jhipster jdl jhipster-jdl.jdl` (jhipster-jdl.jdl là file vừa tải)
-![image](https://github.com/HuyHKr/Quan-Ly-Nhan-Khau/assets/148759236/970db685-c2ac-4ca0-93f2-b56bad168511)
-Có conflict, nhấn **a** và **Enter** để ghi đè tất cả file conflict
-![image](https://github.com/HuyHKr/Quan-Ly-Nhan-Khau/assets/148759236/05126218-1729-4ed4-ad49-3a6a7645ee65)
+    Chạy lệnh `jhipster jdl jhipster-jdl.jdl` (jhipster-jdl.jdl là file vừa tải)
+    ![image](https://github.com/HuyHKr/Quan-Ly-Nhan-Khau/assets/148759236/970db685-c2ac-4ca0-93f2-b56bad168511)
 
-4. Tạo Database và connect source code với Database
+    Có conflict, nhấn **a** và **Enter** để ghi đè tất cả file conflict
+    ![image](https://github.com/HuyHKr/Quan-Ly-Nhan-Khau/assets/148759236/05126218-1729-4ed4-ad49-3a6a7645ee65)
 
-        [Tải PostgreSql](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
+5. Tạo Database và connect source code với Database
 
-        Tạo database có tên quanlynhankhau
+   [Tải PostgreSql](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
 
-        Config source code tại  `src\main\resources\config\ application-dev.yml `
+   Tạo database có tên quanlynhankhau
+
+   Config source code tại  `src\main\resources\config\ application-dev.yml `
         ![image](https://github.com/HuyHKr/Quan-Ly-Nhan-Khau/assets/148759236/a781ccbe-5c5c-4d18-a48c-4e63f2312208)
 
 
-5. Khởi chạy Project
+6. Khởi chạy Project
    
    Chạy lệnh `mvnw` để khởi động 
    ![image](https://github.com/HuyHKr/Quan-Ly-Nhan-Khau/assets/148759236/16d4d2c5-7643-4893-8995-21ecef09f523)
