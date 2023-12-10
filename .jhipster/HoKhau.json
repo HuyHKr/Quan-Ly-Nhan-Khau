@@ -1,0 +1,25 @@
+{
+  "applications": "*",
+  "changelogDate": "20231210014534",
+  "entityTableName": "ho_khau",
+  "fields": [
+    {
+      "fieldName": "maHoKhau",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "tenChuHo",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "diaChi",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "name": "HoKhau",
+  "relationships": [],
+  "searchEngine": "no"
+}

@@ -1,0 +1,23 @@
+entity HoKhau {
+MaHoKhau String required
+TenChuHo String required
+DiaChi String required
+}
+entity KhoanThu{
+MaKhoanThu String required
+TenKhoanThu String required
+DonGia String required
+Loai Loai
+}
+entity NopTien{
+SoTien Long
+NgayNop Instant
+}
+enum Loai{
+BAT_BUOC,
+TU_NGUYEN
+}
+relationship ManyToOne{
+NopTien{HoKhau(TenChuHo)} to HoKhau
+NopTien{KhoanThu(TenKhoanThu)} to KhoanThu
+}

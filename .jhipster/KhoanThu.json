@@ -1,0 +1,30 @@
+{
+  "applications": "*",
+  "changelogDate": "20231210014634",
+  "entityTableName": "khoan_thu",
+  "fields": [
+    {
+      "fieldName": "maKhoanThu",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "tenKhoanThu",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "donGia",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "loai",
+      "fieldType": "Loai",
+      "fieldValues": "BAT_BUOC,TU_NGUYEN"
+    }
+  ],
+  "name": "KhoanThu",
+  "relationships": [],
+  "searchEngine": "no"
+}

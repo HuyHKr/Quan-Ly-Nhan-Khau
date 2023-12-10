@@ -1,0 +1,26 @@
+{
+  "quanLyNhanKhauApp": {
+    "hoKhau": {
+      "home": {
+        "title": "HoKhaus",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Ho Khau",
+        "createOrEditLabel": "Créer ou éditer un Ho Khau",
+        "notFound": "Aucun Ho Khau trouvé"
+      },
+      "created": "Un nouveau Ho Khau a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Ho Khau avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Ho Khau avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Ho Khau {{ id }} ?"
+      },
+      "detail": {
+        "title": "Ho Khau"
+      },
+      "id": "ID",
+      "maHoKhau": "Ma Ho Khau",
+      "tenChuHo": "Ten Chu Ho",
+      "diaChi": "Dia Chi"
+    }
+  }
+}

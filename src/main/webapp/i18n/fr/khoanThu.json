@@ -1,0 +1,27 @@
+{
+  "quanLyNhanKhauApp": {
+    "khoanThu": {
+      "home": {
+        "title": "KhoanThus",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Khoan Thu",
+        "createOrEditLabel": "Créer ou éditer un Khoan Thu",
+        "notFound": "Aucun Khoan Thu trouvé"
+      },
+      "created": "Un nouveau Khoan Thu a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Khoan Thu avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Khoan Thu avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Khoan Thu {{ id }} ?"
+      },
+      "detail": {
+        "title": "Khoan Thu"
+      },
+      "id": "ID",
+      "maKhoanThu": "Ma Khoan Thu",
+      "tenKhoanThu": "Ten Khoan Thu",
+      "donGia": "Don Gia",
+      "loai": "Loai"
+    }
+  }
+}

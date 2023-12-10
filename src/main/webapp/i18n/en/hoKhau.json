@@ -1,0 +1,26 @@
+{
+  "quanLyNhanKhauApp": {
+    "hoKhau": {
+      "home": {
+        "title": "Ho Khaus",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Ho Khau",
+        "createOrEditLabel": "Create or edit a Ho Khau",
+        "notFound": "No Ho Khaus found"
+      },
+      "created": "A new Ho Khau is created with identifier {{ param }}",
+      "updated": "A Ho Khau is updated with identifier {{ param }}",
+      "deleted": "A Ho Khau is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Ho Khau {{ id }}?"
+      },
+      "detail": {
+        "title": "Ho Khau"
+      },
+      "id": "ID",
+      "maHoKhau": "Ma Ho Khau",
+      "tenChuHo": "Ten Chu Ho",
+      "diaChi": "Dia Chi"
+    }
+  }
+}

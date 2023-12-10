@@ -1,0 +1,27 @@
+{
+  "quanLyNhanKhauApp": {
+    "nopTien": {
+      "home": {
+        "title": "Nop Tiens",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Nop Tien",
+        "createOrEditLabel": "Create or edit a Nop Tien",
+        "notFound": "No Nop Tiens found"
+      },
+      "created": "A new Nop Tien is created with identifier {{ param }}",
+      "updated": "A Nop Tien is updated with identifier {{ param }}",
+      "deleted": "A Nop Tien is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Nop Tien {{ id }}?"
+      },
+      "detail": {
+        "title": "Nop Tien"
+      },
+      "id": "ID",
+      "soTien": "So Tien",
+      "ngayNop": "Ngay Nop",
+      "hoKhau": "Ho Khau",
+      "khoanThu": "Khoan Thu"
+    }
+  }
+}

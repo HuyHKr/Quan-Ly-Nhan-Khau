@@ -1,0 +1,33 @@
+{
+  "applications": "*",
+  "changelogDate": "20231210014734",
+  "entityTableName": "nop_tien",
+  "fields": [
+    {
+      "fieldName": "soTien",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "ngayNop",
+      "fieldType": "Instant"
+    }
+  ],
+  "name": "NopTien",
+  "relationships": [
+    {
+      "otherEntityField": "tenChuHo",
+      "otherEntityName": "hoKhau",
+      "relationshipName": "hoKhau",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "tenKhoanThu",
+      "otherEntityName": "khoanThu",
+      "relationshipName": "khoanThu",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}

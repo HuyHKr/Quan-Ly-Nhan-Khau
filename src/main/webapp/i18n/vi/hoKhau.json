@@ -1,0 +1,26 @@
+{
+  "quanLyNhanKhauApp": {
+    "hoKhau": {
+      "home": {
+        "title": "Ho Khaus",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Ho Khau",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Ho Khau",
+        "notFound": "No Ho Khaus found"
+      },
+      "created": "Một Ho Khau mới được tạo với định danh {{ param }}",
+      "updated": "Một Ho Khau cập nhật với định danh {{ param }}",
+      "deleted": "Một Ho Khau đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Ho Khau {{ id }}?"
+      },
+      "detail": {
+        "title": "Ho Khau"
+      },
+      "id": "ID",
+      "maHoKhau": "Ma Ho Khau",
+      "tenChuHo": "Ten Chu Ho",
+      "diaChi": "Dia Chi"
+    }
+  }
+}

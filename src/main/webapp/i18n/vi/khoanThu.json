@@ -1,0 +1,27 @@
+{
+  "quanLyNhanKhauApp": {
+    "khoanThu": {
+      "home": {
+        "title": "Khoan Thus",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Khoan Thu",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Khoan Thu",
+        "notFound": "No Khoan Thus found"
+      },
+      "created": "Một Khoan Thu mới được tạo với định danh {{ param }}",
+      "updated": "Một Khoan Thu cập nhật với định danh {{ param }}",
+      "deleted": "Một Khoan Thu đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Khoan Thu {{ id }}?"
+      },
+      "detail": {
+        "title": "Khoan Thu"
+      },
+      "id": "ID",
+      "maKhoanThu": "Ma Khoan Thu",
+      "tenKhoanThu": "Ten Khoan Thu",
+      "donGia": "Don Gia",
+      "loai": "Loai"
+    }
+  }
+}
