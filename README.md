@@ -31,7 +31,7 @@ Tải về và copy vào source code
 
 Chạy lệnh `jhipster jdl jhipster-jdl.jdl` (jhipster-jdl.jdl là file vừa tải)
 ![image](https://github.com/HuyHKr/Quan-Ly-Nhan-Khau/assets/148759236/970db685-c2ac-4ca0-93f2-b56bad168511)
-Có conflict, nhấn **a** và **Enter** để ghi đè tất cả file conflictconflict
+Có conflict, nhấn **a** và **Enter** để ghi đè tất cả file conflict
 ![image](https://github.com/HuyHKr/Quan-Ly-Nhan-Khau/assets/148759236/05126218-1729-4ed4-ad49-3a6a7645ee65)
 
 4. Tạo Database và connect source code với Database
@@ -48,7 +48,7 @@ Config source code tại  `src\main\resources\config\ application-dev.yml `
    Chạy lệnh `mvnw` để khởi động 
    ![image](https://github.com/HuyHKr/Quan-Ly-Nhan-Khau/assets/148759236/16d4d2c5-7643-4893-8995-21ecef09f523)
   
-   Thêm `import static org.mockito.Mockito.when;`java vào file UserServiceIT.java  khi có lỗi sau
+   Thêm `import static org.mockito.Mockito.when;` vào file UserServiceIT.  khi có lỗi sau
    ![image](https://github.com/HuyHKr/Quan-Ly-Nhan-Khau/assets/148759236/fd7a04a7-605f-41c7-ad7d-fa4becf09ac9)
    Thành công sẽ Hiện dòng text sau
    ![image](https://github.com/HuyHKr/Quan-Ly-Nhan-Khau/assets/148759236/2f279597-5246-4e28-a270-39616d4b44f0)
