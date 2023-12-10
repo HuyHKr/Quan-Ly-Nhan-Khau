@@ -36,15 +36,16 @@ Có conflict, nhấn **a** và **Enter** để ghi đè tất cả file conflict
 
 4. Tạo Database và connect source code với Database
 
-[Tải PostgreSql](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
+        [Tải PostgreSql](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
 
-Tạo database có tên quanlynhankhau
+        Tạo database có tên quanlynhankhau
 
-Config source code tại  `src\main\resources\config\ application-dev.yml `
-![image](https://github.com/HuyHKr/Quan-Ly-Nhan-Khau/assets/148759236/a781ccbe-5c5c-4d18-a48c-4e63f2312208)
+        Config source code tại  `src\main\resources\config\ application-dev.yml `
+        ![image](https://github.com/HuyHKr/Quan-Ly-Nhan-Khau/assets/148759236/a781ccbe-5c5c-4d18-a48c-4e63f2312208)
 
 
 5. Khởi chạy Project
+   
    Chạy lệnh `mvnw` để khởi động 
    ![image](https://github.com/HuyHKr/Quan-Ly-Nhan-Khau/assets/148759236/16d4d2c5-7643-4893-8995-21ecef09f523)
   
